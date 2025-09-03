@@ -1,0 +1,7 @@
+# configs/default.yaml
+
+
+train:
+  epochs: 200
+  batch_size: 64
+

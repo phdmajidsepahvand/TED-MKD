@@ -1,0 +1,8 @@
+wfdb
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+tqdm
+pyyaml
