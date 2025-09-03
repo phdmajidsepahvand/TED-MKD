@@ -6,7 +6,7 @@ The official repository of "Structured Multi-Teacher Knowledge Distillation thro
 
 ### Overview
 
-Structured Multi-Teacher Knowledge Distillation (TED-MKD) is a novel framework designed to improve model compression and knowledge transfer from multiple teachers to a lightweight student model.
+Structured Multi-Teacher Knowledge Distillation (TED-MKD) is a novel framework designed to improve model compression and knowledge distillation from multiple teachers to a lightweight student model.
 
 
 
@@ -27,7 +27,7 @@ TED-MKD provides a robust, scalable, and efficient solution for multi-teacher kn
 * **Multi-Teacher Supervision:** Leverages multiple high-capacity teacher models to provide diverse and complementary knowledge for guiding the student model.
 * **Tucker-Guided Feature Decomposition:** Utilizes Tucker decomposition to factorize high-dimensional teacher feature tensors into compact core representations, enabling efficient cross-model supervision.
 * **Adaptive Feature Alignment:** Employs learnable convolutional regressors to adaptively align student feature maps with the decomposed teacher representations, effectively handling structural mismatches.
-* **Layer-Wise Knowledge Transfer:** Projects teacher knowledge onto multiple layers of the student model, capturing both low-level spatial patterns and high-level semantic information.
+* **Layer-Wise Knowledge Distillation:** Projects teacher knowledge onto multiple layers of the student model, capturing both low-level spatial patterns and high-level semantic information.
 * **Lightweight Student Deployment:** Produces highly compressed student networks optimized for real-time inference on resource-constrained devices without sacrificing accuracy.
 * **Robust and Scalable:** Demonstrates consistent performance improvements across seven benchmark datasets, ranging from simple digit recognition (MNIST) to fine-grained visual classification (Oxford-Flowers).
 
