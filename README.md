@@ -10,7 +10,7 @@ Structured Multi-Teacher Knowledge Distillation (TED-MKD) is a novel framework d
 
 
 
-Unlike traditional single-teacher KD approaches, our method integrates Tucker decomposition with learnable convolutional regressors to achieve adaptive feature alignment. By factorizing high-dimensional teacher tensors into compact core representations, we enable semantically rich and structurally consistent supervision from multiple teachers.
+Unlike traditional single-teacher KD approaches, TED-MKD integrates Tucker decomposition with learnable convolutional regressors to achieve adaptive feature alignment. By factorizing high-dimensional teacher tensors into compact core representations, we enable semantically rich and structurally consistent supervision from multiple teachers.
 
 
 
@@ -35,7 +35,7 @@ TED-MKD provides a robust, scalable, and efficient solution for multi-teacher kn
 
 ### Data
 
-To comprehensively evaluate the effectiveness and generalizability of the proposed Structured Multi-Teacher Knowledge Distillation (MKD) framework, TED-MKD conducted experiments on seven publicly available benchmark datasets spanning both coarse-grained and fine-grained visual recognition tasks:
+To comprehensively evaluate the effectiveness and generalizability of the TED-MKD comprehensive experiments was conduct on seven publicly available benchmark datasets spanning both coarse-grained and fine-grained visual recognition tasks:
 
 
 
