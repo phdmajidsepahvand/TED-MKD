@@ -1,6 +1,6 @@
 # TED-MKD
 
-Structured Multi-Teacher Knowledge Distillation through Tucker-Guided Representation Alignment and Adaptive Feature Mapping
+The official repository of "Structured Multi-Teacher Knowledge Distillation through Tucker-Guided Representation Alignment and Adaptive Feature Mapping"
 
 # 
 
@@ -24,12 +24,14 @@ Our approach provides a robust, scalable, and efficient solution for multi-teach
 
 ### Features
 
-* Data Preprocessing: Data loading and preprocessing from the MIMIC-III database.
-* Modeling: Implementation of a Cross-Window Attention Model for classification.
-* Knowledge Distillation: Using a teacher-student approach for enhanced performance.
-* Evaluation: Metrics such as Accuracy and F1-Score to evaluate model performance.
+* **Multi-Teacher Supervision:** Leverages multiple high-capacity teacher models to provide diverse and complementary knowledge for guiding the student model.
+* **Tucker-Guided Feature Decomposition:** Utilizes Tucker decomposition to factorize high-dimensional teacher feature tensors into compact core representations, enabling efficient cross-model supervision.
+* **Adaptive Feature Alignment:** Employs learnable convolutional regressors to adaptively align student feature maps with the decomposed teacher representations, effectively handling structural mismatches.
+* **Layer-Wise Knowledge Transfer:** Projects teacher knowledge onto multiple layers of the student model, capturing both low-level spatial patterns and high-level semantic information.
+* **Lightweight Student Deployment:** Produces highly compressed student networks optimized for real-time inference on resource-constrained devices without sacrificing accuracy.
+* **Robust and Scalable:** Demonstrates consistent performance improvements across seven benchmark datasets, ranging from simple digit recognition (MNIST) to fine-grained visual classification (Oxford-Flowers).
 
-# 
+
 
 ### Data
 
@@ -37,31 +39,13 @@ To comprehensively evaluate the effectiveness and generalizability of the propos
 
 
 
-MNIST: A handwritten digit classification dataset containing 60,000 training and 10,000 testing grayscale images across 10 classes.
-
-
-
-Fashion-MNIST: A dataset of 70,000 grayscale images of clothing and fashion items, also categorized into 10 classes, designed as a more challenging replacement for MNIST.
-
-
-
-CIFAR-10: Comprises 60,000 color images of size 32×32 in 10 object categories, widely used for image classification benchmarking.
-
-
-
-CIFAR-100: Similar to CIFAR-10 but with 100 fine-grained classes, making it a more challenging dataset with 600 images per class.
-
-
-
-Tiny ImageNet: A subset of ImageNet containing 100,000 images across 200 classes, with each image resized to 64×64 pixels, designed for efficient benchmarking.
-
-
-
-Oxford-IIIT Pet Dataset: Contains 7,349 images of 37 different pet breeds, presenting a fine-grained classification challenge due to significant intra-class variation.
-
-
-
-Oxford-Flowers 102: Includes 8,189 images of 102 flower categories, widely used for fine-grained visual recognition.
+* **MNIST:** A handwritten digit classification dataset containing 60,000 training and 10,000 testing grayscale images across 10 classes.
+* **Fashion-MNIST:** A dataset of 70,000 grayscale images of clothing and fashion items, also categorized into 10 classes, designed as a more challenging replacement for MNIST.
+* **CIFAR-10:** Comprises 60,000 color images of size 32×32 in 10 object categories, widely used for image classification benchmarking.
+* **CIFAR-100:** Similar to CIFAR-10 but with 100 fine-grained classes, making it a more challenging dataset with 600 images per class.
+* **Tiny ImageNet:** A subset of ImageNet containing 100,000 images across 200 classes, with each image resized to 64×64 pixels, designed for efficient benchmarking.
+* **Oxford-IIIT Pet Dataset:** Contains 7,349 images of 37 different pet breeds, presenting a fine-grained classification challenge due to significant intra-class variation.
+* **Oxford-Flowers 102:** Includes 8,189 images of 102 flower categories, widely used for fine-grained visual recognition.
 
 
 
