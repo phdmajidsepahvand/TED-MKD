@@ -33,23 +33,41 @@ Our approach provides a robust, scalable, and efficient solution for multi-teach
 
 ### Data
 
-The data used in this project is obtained from the MIMIC-III Waveform Database. This database contains over 67,000 records of physiological signals, such as ECG, ABP, and PPG, collected from ICU patients.
+To comprehensively evaluate the effectiveness and generalizability of the proposed Structured Multi-Teacher Knowledge Distillation (MKD) framework, we conducted experiments on seven publicly available benchmark datasets spanning both coarse-grained and fine-grained visual recognition tasks:
 
 
 
-\- Data Source: \[MIMIC-III Waveform Database v1.0 on PhysioNet](https://physionet.org/content/mimic3wdb/1.0/)
-
-\- License: Open Database License v1.0
+MNIST: A handwritten digit classification dataset containing 60,000 training and 10,000 testing grayscale images across 10 classes.
 
 
 
-For more information and to access the data, visit: \[MIMIC-III Waveform Database](https://physionet.org/content/mimic3wdb/1.0/)
+Fashion-MNIST: A dataset of 70,000 grayscale images of clothing and fashion items, also categorized into 10 classes, designed as a more challenging replacement for MNIST.
 
 
 
-Please follow the instructions on the PhysioNet website to download the data.
+CIFAR-10: Comprises 60,000 color images of size 32×32 in 10 object categories, widely used for image classification benchmarking.
 
-# 
+
+
+CIFAR-100: Similar to CIFAR-10 but with 100 fine-grained classes, making it a more challenging dataset with 600 images per class.
+
+
+
+Tiny ImageNet: A subset of ImageNet containing 100,000 images across 200 classes, with each image resized to 64×64 pixels, designed for efficient benchmarking.
+
+
+
+Oxford-IIIT Pet Dataset: Contains 7,349 images of 37 different pet breeds, presenting a fine-grained classification challenge due to significant intra-class variation.
+
+
+
+Oxford-Flowers 102: Includes 8,189 images of 102 flower categories, widely used for fine-grained visual recognition.
+
+
+
+These datasets cover a wide range of tasks — from simple digit recognition to complex fine-grained classification — allowing us to evaluate both the scalability and robustness of our Tucker-guided multi-teacher distillation framework.
+
+
 
 ### Requirements
 
