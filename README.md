@@ -14,11 +14,11 @@ Unlike traditional single-teacher KD approaches, our method integrates Tucker de
 
 
 
-We evaluate our framework on seven benchmark datasets — MNIST, Fashion-MNIST, CIFAR-10, CIFAR-100, Tiny ImageNet, Oxford-IIIT Pet, and Oxford-Flowers. The results demonstrate consistent improvements over state-of-the-art KD baselines, with notable gains on challenging datasets such as CIFAR-100, Tiny ImageNet, and Oxford-Flowers.
+TED-MKD was evaluated on seven benchmark datasets MNIST, Fashion-MNIST, CIFAR-10, CIFAR-100, Tiny ImageNet, Oxford-IIIT Pet, and Oxford-Flowers. The results demonstrate consistent improvements over state-of-the-art KD baselines, with notable gains on challenging datasets such as CIFAR-100, Tiny ImageNet, and Oxford-Flowers.
 
 
 
-Our approach provides a robust, scalable, and efficient solution for multi-teacher knowledge distillation, making it suitable for both simple and fine-grained visual recognition tasks.
+TED-MKD provides a robust, scalable, and efficient solution for multi-teacher knowledge distillation, making it suitable for both simple and fine-grained visual recognition tasks.
 
 
 
@@ -35,7 +35,7 @@ Our approach provides a robust, scalable, and efficient solution for multi-teach
 
 ### Data
 
-To comprehensively evaluate the effectiveness and generalizability of the proposed Structured Multi-Teacher Knowledge Distillation (MKD) framework, we conducted experiments on seven publicly available benchmark datasets spanning both coarse-grained and fine-grained visual recognition tasks:
+To comprehensively evaluate the effectiveness and generalizability of the proposed Structured Multi-Teacher Knowledge Distillation (MKD) framework, TED-MKD conducted experiments on seven publicly available benchmark datasets spanning both coarse-grained and fine-grained visual recognition tasks:
 
 
 
@@ -49,7 +49,7 @@ To comprehensively evaluate the effectiveness and generalizability of the propos
 
 
 
-These datasets cover a wide range of tasks — from simple digit recognition to complex fine-grained classification — allowing us to evaluate both the scalability and robustness of our Tucker-guided multi-teacher distillation framework.
+These datasets cover a wide range of tasks from simple digit recognition to complex fine-grained classification allowing us to evaluate both the scalability and robustness of our Tucker-guided multi-teacher distillation framework.
 
 
 
