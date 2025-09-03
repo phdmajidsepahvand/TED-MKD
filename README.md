@@ -6,7 +6,7 @@ The official repository of "Structured Multi-Teacher Knowledge Distillation thro
 
 ### Overview
 
-Structured Multi-Teacher Knowledge Distillation (MKD) is a novel framework designed to improve model compression and knowledge transfer from multiple teachers to a lightweight student model.
+Structured Multi-Teacher Knowledge Distillation (TED-MKD) is a novel framework designed to improve model compression and knowledge transfer from multiple teachers to a lightweight student model.
 
 
 
